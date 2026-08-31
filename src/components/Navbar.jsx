@@ -13,6 +13,17 @@ export default function Navbar({ currentRoute, setCurrentRoute, lang, setLang, t
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (mobileOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [mobileOpen]);
+
   const navLinks = [
     { id: 'home', label: t.nav.home },
     { id: 'services', label: t.nav.services },
