@@ -111,21 +111,21 @@ export default function AnimatedBackground() {
 
   return (
     <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-      {/* 1. Custom Looping Video Background */}
+      {/* 1. Custom Looping Video Background (Clear, Vibrant & Noticeable) */}
       <video
         autoPlay
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover opacity-20 filter contrast-125 brightness-90"
+        className="absolute inset-0 w-full h-full object-cover opacity-80 filter brightness-105 contrast-110 scale-105"
       >
         <source src="/bg-video.mp4" type="video/mp4" />
         <source src="/bu_logoyu_animasyonlu_yap.mp4" type="video/mp4" />
       </video>
 
-      {/* 2. Dark Luxury Gradient Vignette Overlay (Protects Text Readability) */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#08080C]/85 via-[#08080C]/65 to-[#08080C]/90" />
-      <div className="absolute inset-0 bg-radial-gradient opacity-60" />
+      {/* 2. Balanced Dark Luxury Vignette Overlay (Leaves video clearly visible while keeping text readable) */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-black/30 to-black/70" />
 
       {/* 3. Animated Ambient Glowing Orbs */}
       <div className="absolute -top-32 -left-32 w-[550px] h-[550px] bg-gradient-to-br from-amber-500/15 via-yellow-600/5 to-transparent rounded-full blur-[140px] animate-pulse" style={{ animationDuration: '8s' }} />
@@ -133,10 +133,7 @@ export default function AnimatedBackground() {
       <div className="absolute -bottom-40 left-1/4 w-[650px] h-[650px] bg-gradient-to-tr from-amber-500/12 via-amber-700/5 to-transparent rounded-full blur-[150px] animate-pulse" style={{ animationDuration: '14s' }} />
 
       {/* 4. Interactive Constellation Canvas */}
-      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full opacity-60" />
-
-      {/* 5. Subtle Luxury Grid Pattern */}
-      <div className="absolute inset-0 bg-grid-pattern opacity-30" />
+      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full opacity-50" />
     </div>
   );
 }
