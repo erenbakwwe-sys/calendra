@@ -30,14 +30,16 @@ export default function AboutPage({ lang = 'de', t, onOpenDiscovery }) {
   return (
     <div className="pt-32 sm:pt-40 pb-20 space-y-20">
       {/* Header */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold uppercase tracking-wider">
-          <Sparkles className="w-3.5 h-3.5" />
-          <span>{t.about.tag}</span>
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="p-8 sm:p-12 rounded-3xl bg-[#08090f]/85 border border-amber-500/30 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.85)] space-y-4">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/15 border border-amber-500/40 text-amber-300 text-xs font-semibold uppercase tracking-wider">
+            <Sparkles className="w-3.5 h-3.5" />
+            <span>{t.about.tag}</span>
+          </div>
+          <h1 className="text-4xl sm:text-6xl font-black text-white text-contrast-shadow">
+            {t.about.title}
+          </h1>
         </div>
-        <h1 className="text-4xl sm:text-6xl font-black text-white max-w-4xl mx-auto">
-          {t.about.title}
-        </h1>
       </section>
 
       {/* Story & Vision */}

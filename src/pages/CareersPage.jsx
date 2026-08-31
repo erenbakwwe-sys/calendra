@@ -53,47 +53,49 @@ export default function CareersPage({ lang = 'de', t }) {
   return (
     <div className="pt-32 sm:pt-40 pb-20 space-y-20">
       {/* Header with high-energy recruitment headline */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/15 border border-amber-500/40 text-amber-300 text-xs sm:text-sm font-semibold uppercase tracking-wider animate-fadeIn">
-          <Flame className="w-4 h-4 text-amber-400 animate-pulse" />
-          <span>{lang === 'de' ? 'WIR STELLEN EIN • DEUTSCHSPRACHIGE AGENTS GESUCHT' : 'İŞE ALIM BAŞLADI • ALMANCA BİLEN TEMSİLCİLER ARANIYOR'}</span>
-        </div>
-        <h1 className="text-4xl sm:text-6xl font-black text-white max-w-4xl mx-auto tracking-tight">
-          {lang === 'de' ? (
-            <>
-              Werde Teil des <span className="gold-gradient-text">CALENDRA</span> Teams
-            </>
-          ) : (
-            <>
-              <span className="gold-gradient-text">CALENDRA</span> Ekibine Katılın
-            </>
-          )}
-        </h1>
-        <p className="text-slate-300 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
-          {lang === 'de'
-            ? 'Arbeite im Home-Office oder vor Ort in Istanbul/Izmir mit überdurchschnittlichem Gehalt, ungedeckten Boni und echtem deutschem Teamgeist. Bewirb dich jetzt in unter 60 Sekunden!'
-            : 'Home-Office veya İstanbul/İzmir ofislerimizde yüksek Euro/TL maaş, limitsiz primler ve güvenli kurumsal standartlarla çalışın. 60 saniyede hemen başvurun!'}
-        </p>
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="p-8 sm:p-12 rounded-3xl bg-[#08090f]/85 border border-amber-500/30 backdrop-blur-2xl shadow-[0_20px_50px_rgba(0,0,0,0.85)] space-y-4">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/15 border border-amber-500/40 text-amber-300 text-xs sm:text-sm font-semibold uppercase tracking-wider animate-fadeIn">
+            <Flame className="w-4 h-4 text-amber-400 animate-pulse" />
+            <span>{lang === 'de' ? 'WIR STELLEN EIN • DEUTSCHSPRACHIGE AGENTS GESUCHT' : 'İŞE ALIM BAŞLADI • ALMANCA BİLEN TEMSİLCİLER ARANIYOR'}</span>
+          </div>
+          <h1 className="text-4xl sm:text-6xl font-black text-white text-contrast-shadow tracking-tight">
+            {lang === 'de' ? (
+              <>
+                Werde Teil des <span className="gold-gradient-text drop-shadow-[0_2px_15px_rgba(212,175,55,0.4)]">CALENDRA</span> Teams
+              </>
+            ) : (
+              <>
+                <span className="gold-gradient-text drop-shadow-[0_2px_15px_rgba(212,175,55,0.4)]">CALENDRA</span> Ekibine Katılın
+              </>
+            )}
+          </h1>
+          <p className="text-slate-200 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed text-contrast-shadow">
+            {lang === 'de'
+              ? 'Arbeite im Home-Office oder vor Ort in Istanbul/Izmir mit überdurchschnittlichem Gehalt, ungedeckten Boni und echtem deutschem Teamgeist. Bewirb dich jetzt in unter 60 Sekunden!'
+              : 'Home-Office veya İstanbul/İzmir ofislerimizde yüksek Euro/TL maaş, limitsiz primler ve güvenli kurumsal standartlarla çalışın. 60 saniyede hemen başvurun!'}
+          </p>
 
-        {/* Quick Hotline Bar */}
-        <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
-          <a
-            href="tel:+905448662909"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs sm:text-sm font-mono font-bold hover:bg-amber-500/20 transition-all"
-          >
-            <Phone className="w-4 h-4 text-amber-400" />
-            <span>{lang === 'de' ? 'Bewerber-Hotline:' : 'Aday Başvuru Hattı:'} +90 (544) 866 29 09</span>
-          </a>
+          {/* Quick Hotline Bar */}
+          <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
+            <a
+              href="tel:+905448662909"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs sm:text-sm font-mono font-bold hover:bg-amber-500/20 transition-all"
+            >
+              <Phone className="w-4 h-4 text-amber-400" />
+              <span>{lang === 'de' ? 'Bewerber-Hotline:' : 'Aday Başvuru Hattı:'} +90 (544) 866 29 09</span>
+            </a>
 
-          <a
-            href="https://wa.me/905448662909?text=Merhaba,%20Calendra%20iş%20başvurusu%20için%20yazıyorum."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#25D366]/20 border border-[#25D366]/40 text-[#25D366] text-xs sm:text-sm font-bold hover:bg-[#25D366]/30 transition-all"
-          >
-            <MessageCircle className="w-4 h-4" />
-            <span>{lang === 'de' ? 'Direkt per WhatsApp bewerben' : 'WhatsApp ile Hızlı Başvuru'}</span>
-          </a>
+            <a
+              href="https://wa.me/905448662909?text=Merhaba,%20Calendra%20iş%20başvurusu%20için%20yazıyorum."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#25D366]/20 border border-[#25D366]/40 text-[#25D366] text-xs sm:text-sm font-bold hover:bg-[#25D366]/30 transition-all"
+            >
+              <MessageCircle className="w-4 h-4" />
+              <span>{lang === 'de' ? 'Direkt per WhatsApp bewerben' : 'WhatsApp ile Hızlı Başvuru'}</span>
+            </a>
+          </div>
         </div>
       </section>
 

@@ -117,8 +117,8 @@ function App() {
         }}
       />
 
-      {/* Main Page Content */}
-      <main className="flex-grow">
+      {/* Main Page Content (Elevated above background canvas) */}
+      <main className="relative z-10 flex-grow">
         {renderPage()}
       </main>
 
