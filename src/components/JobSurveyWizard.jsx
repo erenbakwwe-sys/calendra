@@ -130,7 +130,7 @@ export default function JobSurveyWizard({ lang = 'de', t, onCompleteSurvey }) {
   };
 
   return (
-    <div className="relative overflow-hidden rounded-3xl glass-panel p-6 sm:p-10 border border-amber-500/30 gold-glow my-8">
+    <div className="relative overflow-hidden rounded-3xl bg-[#0c0e17] p-6 sm:p-10 border-2 border-amber-500/35 shadow-[0_20px_50px_rgba(0,0,0,0.9)] my-6">
       {/* Background Ambience */}
       <div className="absolute top-0 right-0 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
 

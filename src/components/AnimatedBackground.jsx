@@ -21,14 +21,14 @@ export default function AnimatedBackground() {
     window.addEventListener('resize', handleResize);
 
     // Create golden network nodes
-    const nodeCount = Math.min(Math.floor(window.innerWidth / 28), 50);
+    const nodeCount = Math.min(Math.floor(window.innerWidth / 30), 45);
     const nodes = Array.from({ length: nodeCount }, () => ({
       x: Math.random() * width,
       y: Math.random() * height,
-      vx: (Math.random() - 0.5) * 0.45,
-      vy: (Math.random() - 0.5) * 0.45,
+      vx: (Math.random() - 0.5) * 0.4,
+      vy: (Math.random() - 0.5) * 0.4,
       radius: Math.random() * 1.8 + 0.8,
-      alpha: Math.random() * 0.4 + 0.2,
+      alpha: Math.random() * 0.35 + 0.15,
       pulse: Math.random() * Math.PI * 2
     }));
 
@@ -40,7 +40,7 @@ export default function AnimatedBackground() {
     };
     window.addEventListener('mousemove', handleMouseMove);
 
-    const maxDistance = 140;
+    const maxDistance = 135;
 
     const render = () => {
       ctx.clearRect(0, 0, width, height);
@@ -53,7 +53,7 @@ export default function AnimatedBackground() {
           const dist = Math.sqrt(dx * dx + dy * dy);
 
           if (dist < maxDistance) {
-            const lineAlpha = (1 - dist / maxDistance) * 0.18;
+            const lineAlpha = (1 - dist / maxDistance) * 0.15;
             ctx.beginPath();
             ctx.strokeStyle = 'rgba(212, 175, 55, ' + lineAlpha + ')';
             ctx.lineWidth = 0.75;
@@ -86,14 +86,14 @@ export default function AnimatedBackground() {
 
         // Pulse alpha
         node.pulse += 0.02;
-        const currentAlpha = node.alpha + Math.sin(node.pulse) * 0.15;
+        const currentAlpha = node.alpha + Math.sin(node.pulse) * 0.12;
 
         // Draw particle node
         ctx.beginPath();
         ctx.arc(node.x, node.y, node.radius, 0, Math.PI * 2);
         ctx.fillStyle = 'rgba(245, 215, 127, ' + Math.max(0.1, currentAlpha) + ')';
         ctx.shadowColor = '#D4AF37';
-        ctx.shadowBlur = 8;
+        ctx.shadowBlur = 6;
         ctx.fill();
       });
 
@@ -110,30 +110,20 @@ export default function AnimatedBackground() {
   }, []);
 
   return (
-    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-      {/* 1. Custom Looping Video Background (Calm, Elegant & Ambient) */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover opacity-38 filter brightness-90 contrast-115"
-      >
-        <source src="/bg-video.mp4" type="video/mp4" />
-        <source src="/bu_logoyu_animasyonlu_yap.mp4" type="video/mp4" />
-      </video>
+    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden bg-[#08080C]">
+      {/* 1. Deep Luxury Radial Obsidian Background */}
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_15%,_rgba(212,175,55,0.08)_0%,_rgba(8,8,12,1)_70%)]" />
 
-      {/* 2. Soft Dark Vignette & Glass Blur (Guarantees 100% text readability) */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#08080C]/85 via-[#08080C]/65 to-[#08080C]/90 backdrop-blur-[1px]" />
-      <div className="absolute inset-0 bg-radial-gradient opacity-65" />
-
-      {/* 3. Subtle Ambient Glowing Orbs */}
+      {/* 2. Soft Ambient Glowing Auroras at the edges */}
       <div className="absolute -top-32 -left-32 w-[500px] h-[500px] bg-gradient-to-br from-amber-500/10 via-yellow-600/5 to-transparent rounded-full blur-[140px] animate-pulse" style={{ animationDuration: '9s' }} />
       <div className="absolute top-1/3 -right-40 w-[550px] h-[550px] bg-gradient-to-bl from-amber-600/8 via-amber-400/5 to-transparent rounded-full blur-[160px] animate-pulse" style={{ animationDuration: '12s' }} />
       <div className="absolute -bottom-40 left-1/4 w-[600px] h-[600px] bg-gradient-to-tr from-amber-500/8 via-amber-700/5 to-transparent rounded-full blur-[150px] animate-pulse" style={{ animationDuration: '15s' }} />
 
-      {/* 4. Soft Constellation Canvas */}
-      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full opacity-40" />
+      {/* 3. Subtle Luxury Grid Pattern */}
+      <div className="absolute inset-0 bg-grid-pattern opacity-25" />
+
+      {/* 4. Elegant Interactive Constellation Canvas */}
+      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full opacity-60" />
     </div>
   );
 }

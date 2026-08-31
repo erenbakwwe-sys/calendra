@@ -191,16 +191,6 @@ export default function HomePage({ lang = 'de', t, setCurrentRoute, onOpenDiscov
 
       {/* 2. Interactive Pre-Screening Survey Wizard (Centerpiece of the Homepage) */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold uppercase tracking-wider mb-2">
-            <Zap className="w-3.5 h-3.5" />
-            <span>{lang === 'de' ? '60-SEKUNDEN EIGNUNGSTEST' : '60 SANİYELİK ÖN DEĞERLENDİRME'}</span>
-          </div>
-          <h2 className="text-2xl sm:text-3xl font-black text-white">
-            {lang === 'de' ? 'Finde dein passendes Call Center Projekt' : 'Almanca Seviyenize ve Tercihinize Uygun Pozisyonu Bulun'}
-          </h2>
-        </div>
-
         <JobSurveyWizard
           lang={lang}
           t={t}
