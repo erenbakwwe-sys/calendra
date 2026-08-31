@@ -299,9 +299,9 @@ export const de = {
     success: 'Vielen Dank! Ihre Anfrage wurde erfolgreich übermittelt. Ein Account Manager wird sich innerhalb von 2 Stunden bei Ihnen melden.',
     hqGermany: 'Zentrale Deutschland (Vertrieb & Strategie)',
     hqAddressDE: 'Mainzer Landstraße 180, 60327 Frankfurt am Main',
-    hubTurkey: 'Nearshore Operations Hub (Türkei)',
-    hubAddressTR: 'Maslak Mah. Büyükdere Cad. No: 255, 34398 Sarıyer / Istanbul',
-    hubAddressIzmir: 'Folkart Towers A Kule, Bayraklı / Izmir',
+    hubTurkey: 'Operations & Service Hub (Türkei)',
+    hubAddressTR: 'İstiklal Mahallesi No: 6, Atakum / Samsun',
+    hubAddressIzmir: '',
     directContact: 'Direkter Kontakt',
     emailLabel: 'E-Mail:',
     phoneLabel: 'Telefon:'

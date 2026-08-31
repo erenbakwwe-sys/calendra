@@ -141,30 +141,32 @@ export default function Footer({ setCurrentRoute, lang = 'de', t, onOpenContact,
             </h4>
             
             <div className="space-y-3 text-xs text-slate-300">
+              {/* Turkey Operations Hub */}
+              <div className="p-3 rounded-xl bg-black/40 border border-white/5 space-y-1">
+                <span className="font-bold text-white flex items-center gap-1 text-xs">
+                  🇹🇷 {lang === 'de' ? 'Operations & Service Hub (Türkei)' : 'Türkiye Operasyon Merkezi'}
+                </span>
+                <p className="text-slate-300 text-[11px] font-medium">
+                  İstiklal Mah. No: 6, Atakum / Samsun
+                </p>
+                <div className="pt-1 flex flex-col gap-0.5 font-mono text-[11px]">
+                  <a href="tel:+905448662909" className="text-amber-400 font-medium hover:underline">
+                    +90 (544) 866 29 09
+                  </a>
+                  <a href="mailto:calendra-group@outlook.com" className="text-amber-300/80 hover:underline">
+                    calendra-group@outlook.com
+                  </a>
+                </div>
+              </div>
+
               {/* Germany */}
               <div className="p-3 rounded-xl bg-black/40 border border-white/5 space-y-1">
                 <span className="font-bold text-white flex items-center gap-1 text-xs">
-                  🇩🇪 Frankfurt am Main (HQ)
+                  🇩🇪 Frankfurt am Main
                 </span>
                 <p className="text-slate-400 text-[11px]">
                   Mainzer Landstraße 180, 60327 Frankfurt am Main
                 </p>
-                <a href="tel:+905448662909" className="text-amber-400 font-mono font-medium block hover:underline">
-                  +90 (544) 866 29 09
-                </a>
-              </div>
-
-              {/* Turkey */}
-              <div className="p-3 rounded-xl bg-black/40 border border-white/5 space-y-1">
-                <span className="font-bold text-white flex items-center gap-1 text-xs">
-                  🇹🇷 Istanbul & Izmir Hubs
-                </span>
-                <p className="text-slate-400 text-[11px]">
-                  Maslak Sarıyer, Istanbul • Folkart Towers, Izmir
-                </p>
-                <a href="tel:+905448662909" className="text-amber-400 font-mono font-medium block hover:underline">
-                  +90 (544) 866 29 09
-                </a>
               </div>
             </div>
           </div>

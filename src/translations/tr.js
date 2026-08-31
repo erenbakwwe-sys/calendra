@@ -299,9 +299,9 @@ export const tr = {
     success: 'Teşekkürler! Talebiniz başarıyla alındı. Müşteri Temsilcimiz en geç 2 saat içinde sizinle iletişime geçecektir.',
     hqGermany: 'Almanya Genel Merkez (Satış & Strateji)',
     hqAddressDE: 'Mainzer Landstraße 180, 60327 Frankfurt am Main',
-    hubTurkey: 'Türkiye Operasyon Merkezi (Nearshore Hub)',
-    hubAddressTR: 'Maslak Mah. Büyükdere Cad. No: 255, 34398 Sarıyer / İstanbul',
-    hubAddressIzmir: 'Folkart Towers A Kule, Bayraklı / İzmir',
+    hubTurkey: 'Türkiye Operasyon & Hizmet Merkezi',
+    hubAddressTR: 'İstiklal Mahallesi No: 6, Atakum / Samsun',
+    hubAddressIzmir: '',
     directContact: 'Doğrudan İletişim',
     emailLabel: 'E-Posta:',
     phoneLabel: 'Telefon:'

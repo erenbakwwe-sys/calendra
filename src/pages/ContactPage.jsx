@@ -238,7 +238,32 @@ export default function ContactPage({ lang = 'de', t, onOpenDiscovery, initialIn
               </div>
             </div>
 
-            {/* Germany HQ */}
+            {/* Turkey HQ / Operations Hub */}
+            <div className="p-6 rounded-2xl glass-panel space-y-3 border-amber-500/20">
+              <div className="flex items-center gap-2 text-white font-bold text-sm">
+                <MapPin className="w-4 h-4 text-amber-400" />
+                <span>{t.contact.hubTurkey}</span>
+              </div>
+              <p className="text-xs text-slate-300 font-medium">
+                {t.contact.hubAddressTR}
+              </p>
+              <div className="pt-2 border-t border-white/5 space-y-1 text-xs">
+                <p className="text-slate-300">
+                  <span className="text-slate-500">{t.contact.phoneLabel}</span>{' '}
+                  <a href="tel:+905448662909" className="text-amber-400 font-mono font-semibold hover:underline">
+                    +90 (544) 866 29 09
+                  </a>
+                </p>
+                <p className="text-slate-300">
+                  <span className="text-slate-500">{t.contact.emailLabel}</span>{' '}
+                  <a href="mailto:calendra-group@outlook.com" className="text-amber-400 font-mono font-semibold hover:underline">
+                    calendra-group@outlook.com
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            {/* Germany Representative & Partner Office */}
             <div className="p-6 rounded-2xl glass-panel space-y-3 border-amber-500/20">
               <div className="flex items-center gap-2 text-white font-bold text-sm">
                 <Building className="w-4 h-4 text-amber-400" />
@@ -256,36 +281,8 @@ export default function ContactPage({ lang = 'de', t, onOpenDiscovery, initialIn
                 </p>
                 <p className="text-slate-300">
                   <span className="text-slate-500">{t.contact.emailLabel}</span>{' '}
-                  <a href="mailto:frankfurt@calendra-cc.com" className="text-amber-400 font-mono font-semibold hover:underline">
-                    frankfurt@calendra-cc.com
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            {/* Turkey Hubs */}
-            <div className="p-6 rounded-2xl glass-panel space-y-3 border-amber-500/20">
-              <div className="flex items-center gap-2 text-white font-bold text-sm">
-                <MapPin className="w-4 h-4 text-amber-400" />
-                <span>{t.contact.hubTurkey}</span>
-              </div>
-              <p className="text-xs text-slate-400">
-                {t.contact.hubAddressTR}
-              </p>
-              <p className="text-xs text-slate-400">
-                {t.contact.hubAddressIzmir}
-              </p>
-              <div className="pt-2 border-t border-white/5 space-y-1 text-xs">
-                <p className="text-slate-300">
-                  <span className="text-slate-500">{t.contact.phoneLabel}</span>{' '}
-                  <a href="tel:+905448662909" className="text-amber-400 font-mono font-semibold hover:underline">
-                    +90 (544) 866 29 09
-                  </a>
-                </p>
-                <p className="text-slate-300">
-                  <span className="text-slate-500">{t.contact.emailLabel}</span>{' '}
-                  <a href="mailto:operations@calendra-cc.com" className="text-amber-400 font-mono font-semibold hover:underline">
-                    operations@calendra-cc.com
+                  <a href="mailto:calendra-group@outlook.com" className="text-amber-400 font-mono font-semibold hover:underline">
+                    calendra-group@outlook.com
                   </a>
                 </p>
               </div>
