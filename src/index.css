@@ -59,12 +59,13 @@
   transform: translateY(-2px);
 }
 
-/* Glassmorphic Dark Containers */
+/* Glassmorphic Dark Containers (Enhanced Contrast & Readability) */
 .glass-panel {
-  background: rgba(14, 16, 23, 0.72);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(212, 175, 55, 0.16);
+  background: rgba(11, 13, 20, 0.88);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(212, 175, 55, 0.22);
+  box-shadow: 0 10px 35px -5px rgba(0, 0, 0, 0.6);
 }
 
 .glass-panel-hover {
@@ -72,10 +73,14 @@
 }
 
 .glass-panel-hover:hover {
-  background: rgba(20, 23, 34, 0.85);
-  border-color: rgba(212, 175, 55, 0.4);
+  background: rgba(15, 18, 28, 0.94);
+  border-color: rgba(212, 175, 55, 0.45);
   transform: translateY(-4px);
-  box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.8), 0 0 20px -5px rgba(212, 175, 55, 0.15);
+  box-shadow: 0 16px 40px -10px rgba(0, 0, 0, 0.85), 0 0 25px -5px rgba(212, 175, 55, 0.2);
+}
+
+.text-contrast-shadow {
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.85), 0 1px 4px rgba(0, 0, 0, 0.9);
 }
 
 /* Ambient Animated Grid / Mesh */

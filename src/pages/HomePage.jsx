@@ -108,16 +108,16 @@ export default function HomePage({ lang = 'de', t, setCurrentRoute, onOpenDiscov
             </div>
 
             {/* Big Headline */}
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.08] text-white">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-[1.08] text-white text-contrast-shadow">
               <span className="block text-slate-100">{t.hero.title1}</span>
-              <span className="block gold-gradient-text">{t.hero.title2}</span>
+              <span className="block gold-gradient-text drop-shadow-[0_2px_15px_rgba(212,175,55,0.4)]">{t.hero.title2}</span>
               <span className="block text-slate-200 text-3xl sm:text-5xl lg:text-6xl font-serif mt-1">
                 {t.hero.title3}
               </span>
             </h1>
 
             {/* Subtitle */}
-            <p className="text-slate-300 text-base sm:text-xl max-w-3xl leading-relaxed font-normal">
+            <p className="text-slate-200 text-base sm:text-xl max-w-3xl leading-relaxed font-normal text-contrast-shadow">
               {t.hero.subtitle}
             </p>
 
