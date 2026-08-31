@@ -76,7 +76,7 @@ export default function HomePage({ lang = 'de', t, setCurrentRoute, onOpenDiscov
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] sm:w-[900px] h-[450px] bg-gradient-to-b from-amber-500/15 via-amber-600/5 to-transparent blur-[120px] pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-          <div className="flex flex-col items-center text-center space-y-6 max-w-4xl mx-auto">
+          <div className="flex flex-col items-center text-center space-y-6 max-w-4xl mx-auto p-6 sm:p-10 rounded-3xl bg-[#08090f]/80 border border-amber-500/25 backdrop-blur-xl shadow-[0_20px_60px_rgba(0,0,0,0.85)]">
             {/* Top Tag */}
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-500/15 border border-amber-500/40 text-amber-300 text-xs sm:text-sm font-semibold tracking-wider uppercase animate-fadeIn">
               <Flame className="w-4 h-4 text-amber-400 animate-pulse" />
@@ -84,7 +84,7 @@ export default function HomePage({ lang = 'de', t, setCurrentRoute, onOpenDiscov
             </div>
 
             {/* Grand Luxury Animated Video / Emblem Spotlight */}
-            <div className="relative my-4 group">
+            <div className="relative my-2 group">
               <div className="absolute -inset-6 bg-gradient-to-r from-amber-500/40 via-yellow-400/30 to-amber-600/40 rounded-full blur-2xl opacity-80 group-hover:opacity-100 transition-all duration-500 animate-pulse" />
               <div className="absolute -inset-2 bg-gradient-to-br from-amber-300 via-amber-500 to-amber-700 rounded-3xl blur-md opacity-70" />
               
@@ -122,7 +122,7 @@ export default function HomePage({ lang = 'de', t, setCurrentRoute, onOpenDiscov
             </p>
 
             {/* Candidate Call to Actions */}
-            <div className="flex flex-col sm:flex-row items-center gap-4 pt-4 w-full sm:w-auto">
+            <div className="flex flex-col sm:flex-row items-center gap-4 pt-2 w-full sm:w-auto">
               <button
                 onClick={() => setIsAppModalOpen(true)}
                 className="w-full sm:w-auto py-4 px-8 rounded-2xl gold-button text-slate-950 font-bold text-sm sm:text-base tracking-wide flex items-center justify-center gap-2 cursor-pointer shadow-2xl hover:scale-105 transition-transform"
@@ -143,8 +143,8 @@ export default function HomePage({ lang = 'de', t, setCurrentRoute, onOpenDiscov
             </div>
 
             {/* Live Real-Time Canvas Audio Wave Visualizer */}
-            <div className="w-full pt-8">
-              <AudioWaveVisualizer height={160} />
+            <div className="w-full pt-4">
+              <AudioWaveVisualizer height={150} />
             </div>
           </div>
 

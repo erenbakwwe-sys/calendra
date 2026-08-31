@@ -111,19 +111,29 @@ export default function AnimatedBackground() {
 
   return (
     <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden bg-[#08080C]">
-      {/* 1. Deep Luxury Radial Obsidian Background */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_15%,_rgba(212,175,55,0.08)_0%,_rgba(8,8,12,1)_70%)]" />
+      {/* 1. Looping Video Background Animation */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover opacity-50 filter brightness-105 contrast-110"
+      >
+        <source src="/bg-video.mp4" type="video/mp4" />
+        <source src="/bu_logoyu_animasyonlu_yap.mp4" type="video/mp4" />
+      </video>
 
-      {/* 2. Soft Ambient Glowing Auroras at the edges */}
-      <div className="absolute -top-32 -left-32 w-[500px] h-[500px] bg-gradient-to-br from-amber-500/10 via-yellow-600/5 to-transparent rounded-full blur-[140px] animate-pulse" style={{ animationDuration: '9s' }} />
-      <div className="absolute top-1/3 -right-40 w-[550px] h-[550px] bg-gradient-to-bl from-amber-600/8 via-amber-400/5 to-transparent rounded-full blur-[160px] animate-pulse" style={{ animationDuration: '12s' }} />
-      <div className="absolute -bottom-40 left-1/4 w-[600px] h-[600px] bg-gradient-to-tr from-amber-500/8 via-amber-700/5 to-transparent rounded-full blur-[150px] animate-pulse" style={{ animationDuration: '15s' }} />
+      {/* 2. Ambient Contrast Vignette & Dark Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#08080C]/75 via-[#08080C]/35 to-[#08080C]/85" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,_transparent_0%,_rgba(8,8,12,0.8)_85%)]" />
 
-      {/* 3. Subtle Luxury Grid Pattern */}
-      <div className="absolute inset-0 bg-grid-pattern opacity-25" />
+      {/* 3. Soft Ambient Glowing Auroras at the edges */}
+      <div className="absolute -top-32 -left-32 w-[500px] h-[500px] bg-gradient-to-br from-amber-500/15 via-yellow-600/5 to-transparent rounded-full blur-[140px] animate-pulse" style={{ animationDuration: '9s' }} />
+      <div className="absolute top-1/3 -right-40 w-[550px] h-[550px] bg-gradient-to-bl from-amber-600/10 via-amber-400/5 to-transparent rounded-full blur-[160px] animate-pulse" style={{ animationDuration: '12s' }} />
+      <div className="absolute -bottom-40 left-1/4 w-[600px] h-[600px] bg-gradient-to-tr from-amber-500/10 via-amber-700/5 to-transparent rounded-full blur-[150px] animate-pulse" style={{ animationDuration: '15s' }} />
 
       {/* 4. Elegant Interactive Constellation Canvas */}
-      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full opacity-60" />
+      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full opacity-50" />
     </div>
   );
 }
