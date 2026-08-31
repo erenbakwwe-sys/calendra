@@ -83,17 +83,27 @@ export default function HomePage({ lang = 'de', t, setCurrentRoute, onOpenDiscov
               <span>{t.hero.badge}</span>
             </div>
 
-            {/* Grand Luxury Logo Spotlight */}
+            {/* Grand Luxury Animated Video / Emblem Spotlight */}
             <div className="relative my-4 group">
               <div className="absolute -inset-6 bg-gradient-to-r from-amber-500/40 via-yellow-400/30 to-amber-600/40 rounded-full blur-2xl opacity-80 group-hover:opacity-100 transition-all duration-500 animate-pulse" />
               <div className="absolute -inset-2 bg-gradient-to-br from-amber-300 via-amber-500 to-amber-700 rounded-3xl blur-md opacity-70" />
               
-              <div className="relative w-36 h-36 sm:w-48 sm:h-48 rounded-3xl p-3 bg-gradient-to-b from-[#181a24] via-[#0d0e14] to-[#08080c] border-2 border-amber-400/70 shadow-[0_0_50px_rgba(212,175,55,0.45)] group-hover:scale-105 group-hover:shadow-[0_0_70px_rgba(212,175,55,0.7)] group-hover:border-amber-300 transition-all duration-500 flex items-center justify-center">
-                <img
-                  src="/logo.png"
-                  alt="CALENDRA Luxury Emblem"
-                  className="w-full h-full object-contain filter drop-shadow-[0_8px_20px_rgba(212,175,55,0.7)]"
-                />
+              <div className="relative w-36 h-36 sm:w-52 sm:h-52 rounded-3xl overflow-hidden p-1.5 bg-gradient-to-b from-[#181a24] via-[#0d0e14] to-[#08080c] border-2 border-amber-400/70 shadow-[0_0_50px_rgba(212,175,55,0.45)] group-hover:scale-105 group-hover:shadow-[0_0_70px_rgba(212,175,55,0.7)] group-hover:border-amber-300 transition-all duration-500 flex items-center justify-center">
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover rounded-2xl filter drop-shadow-[0_8px_20px_rgba(212,175,55,0.7)]"
+                >
+                  <source src="/bu_logoyu_animasyonlu_yap.mp4" type="video/mp4" />
+                  <source src="/bg-video.mp4" type="video/mp4" />
+                  <img
+                    src="/logo.png"
+                    alt="CALENDRA Luxury Emblem"
+                    className="w-full h-full object-contain"
+                  />
+                </video>
               </div>
             </div>
 
