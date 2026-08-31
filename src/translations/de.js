@@ -1,0 +1,337 @@
+export const de = {
+  nav: {
+    home: 'Startseite',
+    services: 'Dienstleistungen',
+    about: 'Über uns',
+    technology: 'Technologie & DSGVO',
+    careers: 'Karriere & Bewerbung',
+    contact: 'Kontakt',
+    applyNow: 'Jetzt Bewerben',
+    bookCall: 'Erstgespräch Buchen',
+    phone: '+90 (544) 866 29 09'
+  },
+  hero: {
+    badge: '🔥 WIR STELLEN EIN • DEUTSCHSPRACHIGE AGENTS GESUCHT',
+    title1: 'DEUTSCHSPRACHIGE',
+    title2: 'CALL CENTER TALENTE',
+    title3: 'IN DER TÜRKEI GESUCHT.',
+    subtitle: 'Arbeite 100% im Home-Office oder in unseren modernen Büros in Istanbul & Izmir. Attraktives Euro-Gehalt, ungedeckte Leistungsboni, private Krankenversicherung und echtes deutsches Qualitätsmanagement. Bewirb dich jetzt in unter 60 Sekunden!',
+    ctaApply: 'Jetzt in 60 Sek. bewerben',
+    ctaServices: 'WhatsApp Bewerbung (+90 544 866 29 09)',
+    ctaCalculate: 'Gehalt & Boni prüfen',
+    stat1Val: '100%',
+    stat1Label: 'Home-Office oder Office Wahl',
+    stat2Val: '24 Std.',
+    stat2Label: 'Express-Rückmeldung & Feedback',
+    stat3Val: 'Pünktlich',
+    stat3Label: 'Sichere Euro/TL Auszahlung + Boni',
+    stat4Val: 'C1/C2',
+    stat4Label: 'Fließendes Deutsch im Fokus'
+  },
+  caseStudies: {
+    tag: 'PROJEKTERFOLGE & PRAXISBEISPIELE',
+    title: 'Echte Ergebnisse für führende DACH-Unternehmen',
+    desc: 'Erfahren Sie, wie wir für E-Commerce, FinTech und B2B-Unternehmen messbare Effizienzsteigerungen und erstklassige Kundenerlebnisse realisieren:',
+    tab1: 'E-Commerce Skalierung',
+    tab2: 'FinTech 24/7 Hotline',
+    tab3: 'B2B Sales & Akquise',
+    case1: {
+      client: 'Führende europäische E-Commerce Plattform',
+      industry: 'Fashion & Lifestyle Retail',
+      headline: 'Black Friday Peak-Management: Von 8 auf 45 Agenten in 10 Werktagen',
+      challengeTitle: 'Ausgangslage & Herausforderung:',
+      challenge: 'Unerwarteter Anstieg des Anruf- und Ticketvolumens um 450% vor dem Weihnachtsgeschäft. Das interne Team in München war überlastet, die Wartezeiten stiegen auf über 18 Minuten.',
+      solutionTitle: 'CALENDRA Dual-Shore Lösung:',
+      solution: 'Bereitstellung von 37 geschulten, muttersprachlichen C1/C2-Kundenservice-Spezialisten innerhalb von 10 Tagen via Zendesk & Aircall. 7-Tage-Schichtmodell inklusive Wochenenden.',
+      resultsTitle: 'Messbare Resultate:',
+      metrics: [
+        { label: 'Ø Annahmezeit (ASA)', value: '< 18 Sek.', detail: 'Vorher 18 Min.' },
+        { label: 'Erstlösungsquote (FCR)', value: '93.8%', detail: '+24% Steigerung' },
+        { label: 'CSAT Bewertung', value: '4.92 / 5.0', detail: 'Höchster Wert der Firmengeschichte' },
+        { label: 'Kostenreduktion', value: '-54%', detail: 'Gegenüber DACH-Zeitarbeit' }
+      ]
+    },
+    case2: {
+      client: 'Reguliertes FinTech-Unternehmen & Neobank',
+      industry: 'Banking & Zahlungsverkehr',
+      headline: 'BaFin-konformer 24/7 Support mit 100% DSGVO-Sicherheitsarchitektur',
+      challengeTitle: 'Ausgangslage & Herausforderung:',
+      challenge: 'Hohe regulatorische Anforderungen (BaFin/DSGVO) bei gleichzeitigem Bedarf an einer lückenlosen 24/7-Notfallhotline für Kartensperren und Transaktionsprüfungen.',
+      solutionTitle: 'CALENDRA Dual-Shore Lösung:',
+      solution: 'Dediziertes Team mit ISO 27001-geschulten Fachkräften in Frankfurt und Maslak. Vollverschlüsselte Anbindung per IP-Whitelisting und rollenbasiertem CRM-Zugriff.',
+      resultsTitle: 'Messbare Resultate:',
+      metrics: [
+        { label: 'Erreichbarkeit (SLA)', value: '99.85%', detail: '24/7/365 lückenlos' },
+        { label: 'Sicherheits-Audit', value: '0 Mängel', detail: 'BaFin & DSGVO geprüft' },
+        { label: 'Net Promoter Score (NPS)', value: '+68', detail: 'Branchen-Benchmark +35' },
+        { label: 'Betriebskosten', value: '-48%', detail: 'Planbare Pauschalsätze' }
+      ]
+    },
+    case3: {
+      client: 'B2B Enterprise Software Anbieter (SaaS)',
+      industry: 'HR & ERP Software DACH',
+      headline: 'Qualifizierte B2B-Terminierung: 2,1 Mio. € neue Sales-Pipeline aufgebaut',
+      challengeTitle: 'Ausgangslage & Herausforderung:',
+      challenge: 'Vertriebsmitarbeiter in Stuttgart verbrachten 70% ihrer Zeit mit unproduktiver Kaltakquise statt qualifizierten Produktdemos bei Geschäftsführern und HR-Leitern.',
+      solutionTitle: 'CALENDRA Dual-Shore Lösung:',
+      solution: 'Strukturierte B2B-Outbound-Kampagne mit erfahrenen Telesales-Profis. Kontaktaufnahme auf Augenhöhe mit fundierter Nutzenargumentation und CRM-Echtzeit-Synchronisation.',
+      resultsTitle: 'Messbare Resultate:',
+      metrics: [
+        { label: 'Generierte Termine', value: '184 B2B Demos', detail: 'In 90 Tagen' },
+        { label: 'Entscheider-Quote', value: '88.5%', detail: 'C-Level & Direktoren' },
+        { label: 'Pipeline-Volumen', value: '2.140.000 €', detail: 'Qualifizierte Opportunities' },
+        { label: 'ROI der Kampagne', value: '7.8x', detail: 'Verhältnis Kosten zu Deckungsbeitrag' }
+      ]
+    }
+  },
+  calculator: {
+    tag: 'ROI & WIRTSCHAFTLICHKEITS-RECHNER',
+    title: 'Berechnen Sie Ihre Kostenvorteile mit CALENDRA',
+    desc: 'Sehen Sie sofort, wie viel Ihr Unternehmen durch Nearshore-Kundenservice in Deutschland & Türkei einsparen kann:',
+    agentsCount: 'Anzahl der benötigten Agenten (FTE):',
+    avgGermanySalary: 'Typische Gesamtkosten pro Agent in DACH (Inkl. Lohnnebenkosten & Infrastruktur):',
+    calendraCost: 'CALENDRA All-Inclusive Nearshore Satz:',
+    monthlySavings: 'Monatliche Ersparnis:',
+    annualSavings: 'Jährliche Gesamtersparnis:',
+    roiBadge: 'Bis zu 58% Budget-Effizienz',
+    requestQuote: 'Individuelles Angebot anfordern'
+  },
+  pillars: {
+    tag: 'WARUM CALENDRA',
+    title: 'Ihre Vorteile auf einen Blick',
+    subtitle: 'Wir sind kein anonymer Call-Center-Anbieter, sondern Ihr strategischer Wachstumspartner mit deutscher Führung und Qualitätsstandards.',
+    p1Title: 'Akzentfreies Deutsch (C1/C2)',
+    p1Desc: 'Über 85% unserer Mitarbeiter sind in Deutschland aufgewachsen oder haben Germanistik studiert. Perfektes Sprachgefühl garantiert.',
+    p2Title: 'Modernste KI-Automatisierung',
+    p2Desc: 'KI-unterstützte Anrufzusammenfassung, Sentiment-Analyse in Echtzeit und intelligentes Routing für maximale Erstlösungsquoten.',
+    p3Title: '100% DSGVO & ISO 27001',
+    p3Desc: 'Vollständige Einhaltung europäischer Datenschutzgesetze. Eigene gesicherte Server und verschlüsselte VoIP-Telefonie.',
+    p4Title: 'Skalierbar in Rekordzeit',
+    p4Desc: 'Von 2 bis 200+ Agenten innerhalb weniger Tage einsatzbereit – inklusive individueller Schulung auf Ihre CRM-Systeme.'
+  },
+  services: {
+    tag: 'UNSERE LEISTUNGEN',
+    title: 'Maßgeschneiderte Kommunikationslösungen',
+    subtitle: 'Von klassischer Inbound-Telefonie über anspruchsvolle B2B-Akquise bis hin zu modernen KI-gestützten Omnichannel-Lösungen.',
+    inbound: {
+      title: 'Inbound Kundenservice',
+      desc: 'Freundliche, kompetente und lösungsorientierte Betreuung Ihrer Kunden rund um die Uhr (24/7/365).',
+      points: ['24/7 Hotline & First-Level-Support', 'Bestellannahme & E-Commerce Betreuung', 'Reklamations- & Beschwerdemanagement', 'Terminkoordination & Auskunftsdienst']
+    },
+    outbound: {
+      title: 'Outbound & B2B Sales Power',
+      desc: 'Gezielte Neukundengewinnung, Terminvereinbarungen und Kundenrückgewinnung mit messbarem ROI.',
+      points: ['Qualifizierte B2B-Terminierung', 'Telesales & Cross-/Up-Selling', 'Kundenreaktivierung & Churn-Prävention', 'Marktforschung & Zufriedenheitsbefragungen']
+    },
+    omnichannel: {
+      title: 'Omnichannel & Messaging Support',
+      desc: 'Erreichen Sie Ihre Kunden dort, wo sie kommunizieren: WhatsApp, Live-Chat, E-Mail und Social Media.',
+      points: ['WhatsApp for Business Betreuung', 'Live-Chat Support mit Reaktionszeit < 45 Sek.', 'Strukturiertes E-Mail- & Ticketsystem-Handling', 'Social Media Community Management']
+    },
+    aiTech: {
+      title: 'KI-Assistierte Telefonie',
+      desc: 'Automatisierte Workflows, die Ihren Agenten zuarbeiten und Wiederholungsanfragen in Sekunden lösen.',
+      points: ['Echtzeit-Sentiment & Stimmungsanalyse', 'Automatisierte Gesprächsprotokolle im CRM', 'Intelligente Voicebots für Vorqualifizierung', 'Wissensdatenbank-KI für schnellste Antworten']
+    },
+    backoffice: {
+      title: 'Backoffice & Datenmanagement',
+      desc: 'Entlasten Sie Ihr Kernteam von zeitraubenden administrativen Tätigkeiten und Datenvalidierungen.',
+      points: ['CRM-Datenbereinigung & Stammdatenpflege', 'Dokumentenprüfung & Verifikation (KYC)', 'Rechnungsklärung & Mahnwesen-Vorbereitung', 'Auftrags- & Vertragserfassung']
+    },
+    quality: {
+      title: 'Qualitätssicherung & Coaching',
+      desc: 'Laufende Überwachung aller Kennzahlen mit eigener Calendra Schulungsakademie.',
+      points: ['100% Mystery Calls & Audio-Audits', 'Wöchentliche KPI-Reportings & Dashboards', 'Individuelle Phonetik- & Verkaufsschulungen', 'SLA-Garantien für First Contact Resolution']
+    }
+  },
+  about: {
+    tag: 'ÜBER CALENDRA',
+    title: 'Die Brücke zwischen Deutschland & der Nearshore-Welt',
+    storyTitle: 'Unsere Vision & Geschichte',
+    story1: 'CALENDRA entstand aus der Überzeugung, dass erstklassiger Kundenservice kein unbezahlbarer Luxus sein muss. Durch die Kombination deutscher Qualitätsstandards in Frankfurt am Main mit hochqualifizierten, muttersprachlichen Talenten an unseren Nearshore-Hubs bieten wir Unternehmen im DACH-Raum den entscheidenden Wettbewerbsvorteil.',
+    story2: 'Mit modernster Cloud-Infrastruktur, kontinuierlicher Schulung in unserer hauseigenen Akademie und tiefem Verständnis für die Nuancen der deutschen Sprache sind wir das Bindeglied für nachhaltigen Unternehmenserfolg.',
+    valuesTitle: 'Unsere Kernwerte',
+    v1: 'Präzision & Verlässlichkeit',
+    v1Desc: 'Pünktlichkeit, exakte Protokollierung und Einhaltung aller SLAs sind unser täglicher Maßstab.',
+    v2: 'Empathie & Sprachkultur',
+    v2Desc: 'Wir sprechen nicht nur Deutsch – wir verstehen die Mentalität, Werte und Erwartungen Ihrer Kunden.',
+    v3: 'Transparenz & Partnerschaft',
+    v3Desc: 'Echtzeit-Dashboards und offene Kommunikation schaffen eine Partnerschaft auf Augenhöhe.',
+    academyTitle: 'Die Calendra Sprach- & Qualitätsakademie',
+    academyDesc: 'Jeder Mitarbeiter durchläuft vor dem ersten Live-Call ein intensives 3-wöchiges Training zu Phonetik, CRM-Tools, Einwandbehandlung und DSGVO-Standards.'
+  },
+  tech: {
+    tag: 'TECHNOLOGIE & SICHERHEIT',
+    title: 'Enterprise-Technologie trifft europäischen Datenschutz',
+    subtitle: 'Maximale Ausfallsicherheit, nahtlose API-Integrationen und kompromisslose Datensicherheit nach DSGVO & ISO 27001.',
+    telephonyTitle: 'Cloud-Telephonie & Redundanz',
+    telephonyDesc: 'Ausfallsichere VoIP-Infrastruktur mit georedundanten Rechenzentren in Frankfurt und München für Latenzen unter 20ms.',
+    integrationsTitle: 'Nahtlose CRM- & Tool-Integrationen',
+    integrationsDesc: 'Wir integrieren uns nahtlos in Ihre bestehenden Systeme: Salesforce, Zendesk, HubSpot, Freshdesk, SAP, Jira, Aircall und maßgeschneiderte REST-APIs.',
+    aiTitle: 'Speech Analytics & KI-Coaching',
+    aiDesc: 'Echtzeit-Erkennung von Kundenstimmungen und automatische Einblendung passender Lösungsvorschläge während des Gesprächs.',
+    securityTitle: '100% DSGVO & ISO 27001',
+    securityPoints: [
+      'Ende-zu-Ende verschlüsselte Sprachkanäle (TLS/SRTP)',
+      'Serverstandorte ausschließlich in der Europäischen Union',
+      'Strikte Auftragsverarbeitungsverträge (AVV nach Art. 28 DSGVO)',
+      'Rollenbasierte Zugriffskontrolle (RBAC) und Clean-Desk-Policy'
+    ]
+  },
+  careers: {
+    tag: 'KARRIERE BEI CALENDRA',
+    title: 'Werde Teil unseres Spitzen-Teams',
+    subtitle: 'Du sprichst fließend Deutsch und suchst einen krisensicheren Job mit Top-Gehalt, flexiblen Arbeitsmodellen und echten Aufstiegschancen? Mach jetzt unseren 1-Minuten-Vorab-Check!',
+    benefitsTitle: 'Deine Vorteile bei uns:',
+    b1: 'Überdurchschnittliches Gehalt in EUR/TRY + attraktive Leistungsboni',
+    b2: '100% Home-Office oder modernes Office in Istanbul/Izmir',
+    b3: 'Umfassende Einarbeitung & bezahlte Schulungstage',
+    b4: 'Private Krankenversicherung & modernstes technisches Equipment',
+    b5: 'Flache Hierarchien, deutsches Management & echtes Teamgefühl',
+    jobsTitle: 'Offene Positionen',
+    job1Title: 'Customer Support Specialist (Inbound) - Deutsch C1/C2',
+    job1Type: 'Vollzeit / Teilzeit | Home-Office oder Office',
+    job1Desc: 'Betreuung von Premium-Kunden führender E-Commerce- und Technologie-Marken in Deutschland per Telefon, Chat und E-Mail.',
+    job2Title: 'B2B Sales & Lead Generation Agent (Outbound)',
+    job2Type: 'Vollzeit | Attraktives Fixum + Uncapped Provision',
+    job2Desc: 'Professionelle telefonische Ansprache von Geschäftskunden in Deutschland, Österreich und der Schweiz.',
+    job3Title: 'Team Leader / Quality Coach (m/w/d)',
+    job3Type: 'Vollzeit | Führungsposition',
+    job3Desc: 'Fachliche und disziplinarische Führung eines Teams von 15-20 Agents, Call-Monitoring und kontinuierliches Coaching.',
+    surveyBadge: 'Interaktiver Vorab-Check',
+    surveyTitle: 'Eignungs-Check & Bewerbungsassistent',
+    surveySubtitle: 'Beantworte 5 kurze Fragen, um sofort zu sehen, welches Projekt und welches Gehaltsmodell perfekt zu dir passt!'
+  },
+  survey: {
+    stepOf: 'Schritt',
+    of: 'von',
+    q1: 'Wie schätzt du deine Deutschkenntnisse ein?',
+    q1_desc: 'Wir arbeiten ausschließlich mit Kunden aus Deutschland, Österreich und der Schweiz.',
+    q1_opt1: 'Muttersprachler / In Deutschland aufgewachsen (C2+)',
+    q1_opt2: 'Fließend in Wort & Schrift / Germanistik-Abschluss (C1)',
+    q1_opt3: 'Gute Kenntnisse mit leichtem Akzent (B2)',
+    q1_opt4: 'Grundkenntnisse (A1 - B1)',
+    
+    q2: 'Hast du bereits Erfahrung im Call Center oder Kundenservice?',
+    q2_desc: 'Quereinsteiger sind bei uns herzlich willkommen – wir schulen dich!',
+    q2_opt1: 'Ja, mehr als 2 Jahre Erfahrung (Inbound / Outbound)',
+    q2_opt2: 'Ja, 6 Monate bis 2 Jahre Erfahrung',
+    q2_opt3: 'Nein, aber ich habe Erfahrung im Verkauf / Gastronomie / Hotel',
+    q2_opt4: 'Nein, ich bin motivierter Quereinsteiger',
+
+    q3: 'Welcher Bereich interessiert dich am meisten?',
+    q3_desc: 'Wähle deinen favorisierten Aufgabenbereich:',
+    q3_opt1: 'Inbound Kundenservice & technischer Support (Ohne Verkauf)',
+    q3_opt2: 'Outbound B2B Telesales & Lead-Generierung (Hohe Boni)',
+    q3_opt3: 'Omnichannel: E-Mail & WhatsApp / Chat-Support',
+    q3_opt4: 'Teamleitung / Qualitätsmanagement / Coaching',
+
+    q4: 'Welches Arbeitsmodell bevorzugst du?',
+    q4_desc: 'Wir bieten maximale Flexibilität nach der Einarbeitungsphase:',
+    q4_opt1: '100% Home-Office (Von überall in der Türkei/EU)',
+    q4_opt2: 'Modernes Büro vor Ort (Istanbul / Izmir)',
+    q4_opt3: 'Hybrid (Mix aus Home-Office & Büro)',
+    q4_opt4: 'Flexible Teilzeit / Studentenmodell',
+
+    q5: 'Wie sieht deine technische Ausstattung zu Hause aus?',
+    q5_desc: 'Für Home-Office benötigst du eine stabile Verbindung:',
+    q5_opt1: 'Schnelles Internet (>50 Mbps), ruhiger Raum & eigener PC vorhanden',
+    q5_opt2: 'Schnelles Internet vorhanden, benötige Firmen-Laptop & Headset',
+    q5_opt3: 'Bevorzuge Arbeiten direkt aus dem Firmenbüro',
+    q5_opt4: 'Muss die Voraussetzungen noch prüfen',
+
+    btnNext: 'Nächste Frage',
+    btnPrev: 'Zurück',
+    btnFinish: 'Ergebnis anzeigen & Bewerben',
+
+    scoreExcellent: 'Hervorragendes Profil! (Match: 98%)',
+    scoreGood: 'Sehr gutes Profil! (Match: 85%)',
+    scoreModerate: 'Gutes Profil für unser Einsteiger-Programm! (Match: 72%)',
+    resultDesc: 'Aufgrund deiner Angaben bist du ideal für unsere aktuellen Premium-Projekte qualifiziert. Fülle jetzt das kurze Formular aus, um innerhalb von 24 Stunden zu einem kurzen Kennenlerngespräch eingeladen zu werden!'
+  },
+  jobForm: {
+    title: 'Deine Bewerbung bei CALENDRA',
+    subtitle: 'Dauert nur 60 Sekunden. Kein langes Anschreiben nötig!',
+    fullName: 'Vollständiger Name *',
+    fullNamePlaceholder: 'z.B. Deniz Yilmaz / Alexander Weber',
+    email: 'E-Mail-Adresse *',
+    emailPlaceholder: 'deine.email@beispiel.de',
+    phone: 'Telefonnummer / WhatsApp *',
+    phonePlaceholder: '+90 5XX XXX XX XX oder +49 17X XXXXXXX',
+    city: 'Wohnort / Stadt *',
+    cityPlaceholder: 'z.B. Istanbul, Izmir, Antalya, Ankara oder Deutschland',
+    cvText: 'Kurzer Lebenslauf / Bisherige Stationen (oder Text einfügen)',
+    cvPlaceholder: 'Kurz stichpunktartig: Ausbildung, bisherige Call Center oder Sprachstationen...',
+    voiceNoteLabel: 'Optional: Kurze deutsche Sprachprobe hochladen / Text sprechen',
+    voiceNoteDesc: 'Erhöht deine Chancen auf ein Sofort-Interview um 300%!',
+    gdprAgree: 'Ich stimme der Verarbeitung meiner Bewerbungsdaten gemäß DSGVO zu.',
+    submitBtn: 'Bewerbung jetzt absenden',
+    submitting: 'Wird gesendet...',
+    successTitle: 'Bewerbung erfolgreich eingegangen!',
+    successDesc: 'Vielen Dank für deine Bewerbung bei CALENDRA. Unsere Personalabteilung prüft deine Angaben und meldet sich innerhalb von maximal 24 Stunden per WhatsApp oder E-Mail bei dir.',
+    refNumber: 'Deine Referenz-ID:'
+  },
+  contact: {
+    tag: 'KONTAKT & BERATUNG',
+    title: 'Lassen Sie uns über Ihre Kundenkommunikation sprechen',
+    subtitle: 'Egal ob Sie ein individuelles Angebot benötigen, eine Partnerschaft anstreben oder Fragen haben – unser Führungsteam steht Ihnen zur Verfügung.',
+    formTitle: 'Unverbindliche Projektanfrage',
+    company: 'Unternehmen / Firmenname *',
+    companyPlaceholder: 'Muster GmbH',
+    name: 'Ansprechpartner *',
+    namePlaceholder: 'Max Mustermann',
+    email: 'Geschäftliche E-Mail *',
+    emailPlaceholder: 'm.mustermann@unternehmen.de',
+    phone: 'Telefonnummer',
+    phonePlaceholder: '+49 69 1234567',
+    serviceInterest: 'Gewünschte Leistung *',
+    serviceOpts: {
+      select: 'Bitte wählen...',
+      inbound: 'Inbound Kundenservice (24/7 / First-Level)',
+      outbound: 'Outbound & B2B Telemarketing',
+      omnichannel: 'Omnichannel (WhatsApp, Chat, E-Mail)',
+      ai: 'KI-Telefonie & Voicebot-Lösungen',
+      custom: 'Individuelles Großprojekt (>10 Agenten)'
+    },
+    message: 'Ihre Nachricht / Projektanforderungen',
+    messagePlaceholder: 'Beschreiben Sie kurz Ihr Anliegen, monatliches Anrufvolumen oder gewünschten Starttermin...',
+    submit: 'Anfrage absenden',
+    success: 'Vielen Dank! Ihre Anfrage wurde erfolgreich übermittelt. Ein Account Manager wird sich innerhalb von 2 Stunden bei Ihnen melden.',
+    hqGermany: 'Zentrale Deutschland (Vertrieb & Strategie)',
+    hqAddressDE: 'Mainzer Landstraße 180, 60327 Frankfurt am Main',
+    hubTurkey: 'Nearshore Operations Hub (Türkei)',
+    hubAddressTR: 'Maslak Mah. Büyükdere Cad. No: 255, 34398 Sarıyer / Istanbul',
+    hubAddressIzmir: 'Folkart Towers A Kule, Bayraklı / Izmir',
+    directContact: 'Direkter Kontakt',
+    emailLabel: 'E-Mail:',
+    phoneLabel: 'Telefon:'
+  },
+  faq: {
+    tag: 'HÄUFIG GESTELLTE FRAGEN',
+    title: 'Alles, was Sie über CALENDRA wissen müssen',
+    q1: 'Wie stellen Sie sicher, dass Ihre Agenten akzentfreies Deutsch sprechen?',
+    a1: 'Wir rekrutieren gezielt Fachkräfte, die in Deutschland aufgewachsen sind, sowie Absolventen der Germanistik. Vor dem Start durchläuft jeder Mitarbeiter ein Phonetik- und Tonalitäts-Training in unserer Calendra Akademie.',
+    q2: 'Wie läuft die Integration in unsere bestehende Telefon- & CRM-Software ab?',
+    a2: 'Unsere modernen Systeme lassen sich per API oder WebRTC nahtlos an alle führenden Plattformen wie Salesforce, Zendesk, HubSpot, Freshdesk oder eigene VoIP-Anlagen anbinden.',
+    q3: 'Ist CALENDRA zu 100% DSGVO-konform?',
+    a3: 'Ja, ausnahmslos. Wir schließen standardmäßig Auftragsverarbeitungsverträge (AVV) nach EU-DSGVO Art. 28 ab, hosten unsere Daten auf ISO 27001 zertifizierten Servern und nutzen Ende-zu-Ende-Verschlüsselung.',
+    q4: 'Wie schnell kann ein neues Call-Center-Projekt starten?',
+    a4: 'Kleinere Teams (2–5 Agenten) können wir nach individuellem Training oft innerhalb von 7 bis 14 Werktagen einsatzbereit machen. Größere Projekte staffeln wir nach einem präzisen Rollout-Plan.',
+    q5: 'Gibt es Mindestvertragslaufzeiten oder Mindestabnahmemengen?',
+    a5: 'Wir bieten flexible Modelle: Von Pilotphasen ab 1 Monat zum Kennenlernen bis hin zu langfristigen Rahmenverträgen mit garantierten Service-Level-Agreements (SLAs).'
+  },
+  footer: {
+    tagline: 'CONNECTING. AUTOMATING. DELIVERING.',
+    desc: 'Ihr erstklassiger deutschsprachiger Call-Center- und Nearshore-Partner mit innovativer KI-Technologie, muttersprachlicher Spitzenqualität und voller DSGVO-Konformität.',
+    quickLinks: 'Navigation',
+    servicesTitle: 'Leistungen',
+    legalTitle: 'Rechtliches',
+    imprint: 'Impressum',
+    privacy: 'Datenschutz (DSGVO)',
+    terms: 'AGB',
+    cookieSettings: 'Cookie-Einstellungen',
+    rights: 'Alle Rechte vorbehalten.',
+    securityBadge: 'ISO 27001 & DSGVO zertifiziert'
+  }
+};
+

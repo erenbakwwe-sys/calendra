@@ -1,0 +1,48 @@
+﻿<!doctype html>
+<html>
+<head><title>Debug</title></head>
+<body>
+<pre id="out"></pre>
+<script type="module">
+const o = document.getElementById('out');
+try {
+  o.textContent += 'Loading translations...\n';
+  const { translations } = await import('/src/translations/translations.js');
+  o.textContent += 'DE keys: ' + Object.keys(translations.de).join(', ') + '\n';
+  o.textContent += '\nLoading components...\n';
+  const cs = [
+    ['/src/components/Navbar.jsx','Navbar'],
+    ['/src/components/Footer.jsx','Footer'],
+    ['/src/components/FloatingWidgets.jsx','FloatingWidgets'],
+    ['/src/components/DiscoveryCallModal.jsx','DiscoveryCallModal'],
+    ['/src/components/AudioWaveVisualizer.jsx','AudioWaveVisualizer'],
+    ['/src/components/SavingsCalculator.jsx','SavingsCalculator'],
+    ['/src/components/CaseStudySimulator.jsx','CaseStudySimulator'],
+    ['/src/components/JobSurveyWizard.jsx','JobSurveyWizard'],
+    ['/src/components/JobApplicationModal.jsx','JobApplicationModal'],
+  ];
+  for (const [p,n] of cs) {
+    try { const m = await import(p); o.textContent += '  OK ' + n + '\n'; }
+    catch(e) { o.textContent += '  FAIL ' + n + ': ' + e.message + '\n'; }
+  }
+  o.textContent += '\nLoading pages...\n';
+  const ps = [
+    ['/src/pages/HomePage.jsx','HomePage'],
+    ['/src/pages/ServicesPage.jsx','ServicesPage'],
+    ['/src/pages/AboutPage.jsx','AboutPage'],
+    ['/src/pages/TechnologyPage.jsx','TechnologyPage'],
+    ['/src/pages/CareersPage.jsx','CareersPage'],
+    ['/src/pages/ContactPage.jsx','ContactPage'],
+  ];
+  for (const [p,n] of ps) {
+    try { const m = await import(p); o.textContent += '  OK ' + n + '\n'; }
+    catch(e) { o.textContent += '  FAIL ' + n + ': ' + e.message + '\n'; }
+  }
+  o.textContent += '\nLoading App...\n';
+  try { const m = await import('/src/App.jsx'); o.textContent += '  OK App\n'; }
+  catch(e) { o.textContent += '  FAIL App: ' + e.message + '\n'; }
+  o.textContent += '\nDONE\n';
+} catch(e) { o.textContent += 'FATAL: ' + e.message + '\n' + e.stack; }
+</script>
+</body>
+</html>

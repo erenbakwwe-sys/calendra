@@ -1,0 +1,337 @@
+export const tr = {
+  nav: {
+    home: 'Ana Sayfa',
+    services: 'Hizmetlerimiz',
+    about: 'Hakkımızda',
+    technology: 'Teknoloji & KVKK',
+    careers: 'Kariyer & Başvuru',
+    contact: 'İletişim',
+    applyNow: 'Hemen Başvur',
+    bookCall: 'Hemen Ara / Randevu',
+    phone: '+90 (544) 866 29 09'
+  },
+  hero: {
+    badge: '🔥 İŞE ALIM BAŞLADI • ALMANCA BİLEN TEMSİLCİLER ARANIYOR',
+    title1: 'ALMANCA BİLEN',
+    title2: 'MÜŞTERİ TEMSİLCİLERİ',
+    title3: 'VE SATIŞ UZMANLARI ARANIYOR.',
+    subtitle: '%100 Home-Office veya İstanbul & İzmir merkezlerimizde çalışın. Yüksek Euro/TL net maaş, limitsiz primler, SGK + Özel Sağlık Sigortası ve Alman kurumsal kültürü. 60 saniyede başvurun, 24 saatte işe başlayın!',
+    ctaApply: '60 Saniyede Hemen Başvur',
+    ctaServices: 'WhatsApp Başvuru (+90 544 866 29 09)',
+    ctaCalculate: 'Kariyer & Yan Haklar',
+    stat1Val: '%100',
+    stat1Label: 'Home-Office / Ofis Seçeneği',
+    stat2Val: '24 Saat',
+    stat2Label: 'Hızlı Geri Dönüş ve Değerlendirme',
+    stat3Val: 'Zamanında',
+    stat3Label: 'Düzenli Net Maaş + Limitsiz Prim',
+    stat4Val: 'C1 / C2',
+    stat4Label: 'Akıcı Almanca Dil Seviyesi'
+  },
+  caseStudies: {
+    tag: 'BAŞARI HİKAYELERİ & GERÇEK VERİLER',
+    title: 'Önde Gelen DACH Şirketleri İçin Kanıtlanmış Sonuçlar',
+    desc: 'E-ticaret, FinTech ve B2B kurumsal müşterilerimiz için maliyetleri düşürürken operasyonel kaliteyi nasıl zirveye taşıdığımızı inceleyin:',
+    tab1: 'E-Ticaret Ölçekleme',
+    tab2: 'FinTech 7/24 Destek',
+    tab3: 'B2B Satış & Randevu',
+    case1: {
+      client: 'Avrupa Çapında Lider E-Ticaret Platformu',
+      industry: 'Moda & Yaşam Tarzı Perakende',
+      headline: 'Black Friday Zirvesi: 10 İş Gününde 8 Temsilciden 45 Temsilciye Hızlı Geçiş',
+      challengeTitle: 'Karşılaşılan Problem & İhtiyaç:',
+      challenge: 'Yılbaşı alışveriş sezonunda çağrı ve destek taleplerinde %450 beklenmedik artış meydana geldi. Münih merkezli şirket içi ekip yetersiz kaldı ve bekleme süresi 18 dakikaya fırladı.',
+      solutionTitle: 'CALENDRA Çözümü:',
+      solution: '10 gün içinde 37 eğitimli, ana dili seviyesinde C1/C2 Almanca konuşan temsilci Zendesk ve Aircall altyapısına bağlandı. 7 gün vardiyalı ve hafta sonu dahil kesintisiz canlıya alındı.',
+      resultsTitle: 'Ölçülebilir Sonuçlar:',
+      metrics: [
+        { label: 'Ort. Yanıtlama Süresi (ASA)', value: '< 18 Saniye', detail: 'Önceki durum: 18 Dk.' },
+        { label: 'İlk Temasta Çözüm (FCR)', value: '%93.8', detail: '+%24 Artış sağlandı' },
+        { label: 'Müşteri Memnuniyeti (CSAT)', value: '4.92 / 5.0', detail: 'Şirket tarihinin en yüksek puanı' },
+        { label: 'Maliyet Avantajı', value: '-%54', detail: 'Almanya taşeron ajanslarına kıyasla' }
+      ]
+    },
+    case2: {
+      client: 'BDDK/BaFin Denetimli FinTech & Neobank',
+      industry: 'Bankacılık & Finansal Teknolojiler',
+      headline: 'BaFin & GDPR Uyumlu 7/24 Kesintisiz Güvenli Destek Operasyonu',
+      challengeTitle: 'Karşılaşılan Problem & İhtiyaç:',
+      challenge: 'Almanya Bankacılık Düzenleme Kurumu (BaFin) ve GDPR standartlarına tam uyumlu, kart iptali ve şüpheli işlem kontrolü için 7/24 acil çağrı merkezi ihtiyacı.',
+      solutionTitle: 'CALENDRA Çözümü:',
+      solution: 'Frankfurt ve İstanbul Maslak merkezlerimizde ISO 27001 sertifikalı özel güvenlikli ekipler kuruldu. IP-Whitelisting ve rol tabanlı CRM erişimi ile tam şifreli hatlar sağlandı.',
+      resultsTitle: 'Ölçülebilir Sonuçlar:',
+      metrics: [
+        { label: 'Erişilebilirlik (SLA)', value: '%99.85', detail: '7/24/365 Kesintisiz' },
+        { label: 'Güvenlik Denetimi', value: '0 Hata', detail: 'BaFin & GDPR tam onay' },
+        { label: 'Net Tavsiye Skoru (NPS)', value: '+68', detail: 'Sektör ortalaması +35' },
+        { label: 'Operasyonel Tasarruf', value: '-%48', detail: 'Sabit ve öngörülebilir bütçe' }
+      ]
+    },
+    case3: {
+      client: 'Kurumsal B2B Yazılım Şirketi (SaaS)',
+      industry: 'İK & ERP Yazılımları (DACH)',
+      headline: 'Nitelikli B2B Randevu Operasyonu: 2.1 Milyon € Yeni Satış Fırsatı',
+      challengeTitle: 'Karşılaşılan Problem & İhtiyaç:',
+      challenge: 'Stuttgart merkezli satış mühendisleri zamanlarının %70\'ini verimsiz soğuk aramalarla harcıyor, karar vericilere ulaşmakta zorlanıyordu.',
+      solutionTitle: 'CALENDRA Çözümü:',
+      solution: 'Deneyimli B2B satış uzmanlarımızla hedefli kurumsal arama kampanyası başlatıldı. Genel müdür ve İK direktörleri seviyesinde nitelikli toplantılar alınarak anında takvime işlendi.',
+      resultsTitle: 'Ölçülebilir Sonuçlar:',
+      metrics: [
+        { label: 'Alınan B2B Randevu', value: '184 Toplantı', detail: '90 gün içinde' },
+        { label: 'Karar Verici Oranı', value: '%88.5', detail: 'C-Level & Direktörler' },
+        { label: 'Pipeline Hacmi', value: '2.140.000 €', detail: 'Nitelikli satış fırsatı' },
+        { label: 'Kampanya Yatırım Getirisi', value: '7.8x ROI', detail: 'Maliyet / Getiri oranı' }
+      ]
+    }
+  },
+  calculator: {
+    tag: 'YATIRIM GETİRİSİ & MALİYET HESAPLAYICI',
+    title: 'CALENDRA ile Tasarruf Oranınızı Hesaplayın',
+    desc: 'Almanya, Avusturya ve İsviçre pazarı için Türkiye lokasyonlu operasyonumuzla ne kadar tasarruf edeceğinizi görün:',
+    agentsCount: 'İhtiyaç Duyulan Müşteri Temsilcisi Sayısı:',
+    avgGermanySalary: 'Almanya İçi Bir Temsilcinin Ortalama Toplam Maliyeti (Maaş + Yan Haklar + Altyapı):',
+    calendraCost: 'CALENDRA Her Şey Dahil Nearshore Temsilci Maliyeti:',
+    monthlySavings: 'Aylık Net Tasarruf:',
+    annualSavings: 'Yıllık Toplam Tasarruf:',
+    roiBadge: "%58'e Varan Bütçe Tasarrufu",
+    requestQuote: 'Size Özel Teklif Alın'
+  },
+  pillars: {
+    tag: 'NEDEN CALENDRA',
+    title: 'Sizi Zirveye Taşıyan Avantajlarımız',
+    subtitle: 'Biz sıradan bir çağrı merkezi değil, Alman yönetimi ve yüksek kalite anlayışıyla şirketinizin büyüme ortağıyız.',
+    p1Title: 'Aksansız Almanca (C1/C2)',
+    p1Desc: "Temsilcilerimizin %85'i Almanya'da doğup büyümüş ya da Alman Filolojisi mezunudur. Kusursuz telaffuz ve dil hakimiyeti.",
+    p2Title: 'Yapay Zeka Destekli Operasyon',
+    p2Desc: 'Gerçek zamanlı duygu analizi, otomatik çağrı özetleri ve akıllı yönlendirme ile ilk temasta en yüksek çözüm oranı.',
+    p3Title: '%100 GDPR, KVKK & ISO 27001',
+    p3Desc: 'Avrupa veri koruma kanunlarına tam uyumluluk. Almanya lokasyonlu güvenli sunucular ve şifrelenmiş VoIP telefon altyapısı.',
+    p4Title: 'Hızlı ve Esnek Ölçeklenme',
+    p4Desc: '2 temsilciden 200+ temsilciye kadar projenizi günler içinde eğitiyor ve canlıya alıyoruz.'
+  },
+  services: {
+    tag: 'HİZMETLERİMİZ',
+    title: 'Kapsamlı ve Yenilikçi İletişim Çözümleri',
+    subtitle: 'Gelen çağrı yönetiminden B2B satış gücüne, yapay zeka otomasyonundan çok kanallı desteğe kadar tam kapsamlı hizmet.',
+    inbound: {
+      title: 'Inbound Çağrı & Müşteri Hizmetleri',
+      desc: '7/24/365 kesintisiz, çözüm odaklı ve kurumsal kimliğinizi en iyi şekilde temsil eden müşteri desteği.',
+      points: ['7/24 Çağrı Merkezi & 1. Seviye Teknik Destek', 'Sipariş Alma & E-Ticaret Müşteri Hizmetleri', 'Şikayet & İade Yönetimi', 'Randevu & Rezervasyon Koordinasyonu']
+    },
+    outbound: {
+      title: 'Outbound & B2B Satış Gücü',
+      desc: 'Hedefli potansiyel müşteri oluşturma, randevu alma ve yüksek dönüşümlü satış operasyonları.',
+      points: ['Nitelikli B2B Randevu Alma & Lead Generation', 'Telesales & Çapraz / Üst Satış (Up-selling)', 'Müşteri Geri Kazanımı (Churn Önleme)', 'Pazar Araştırması & Memnuniyet Anketleri']
+    },
+    omnichannel: {
+      title: 'Çok Kanallı (Omnichannel) Destek',
+      desc: 'Müşterilerinizin bulunduğu her platformda anında yanıt: WhatsApp, Canlı Sohbet, E-posta ve Sosyal Medya.',
+      points: ['WhatsApp Business Yönetimi & Canlı Yanıtlama', 'Canlı Sohbet Desteği (İlk yanıt süresi < 45 sn)', 'E-posta & Biletleme (Ticket) Yönetimi', 'Sosyal Medya Topluluk & Mesaj Yönetimi']
+    },
+    aiTech: {
+      title: 'Yapay Zeka Destekli Telefon Çözümleri',
+      desc: 'Temsilcilere gerçek zamanlı asistanlık yapan ve tekrarlayan soruları saniyeler içinde çözen akıllı sistemler.',
+      points: ['Gerçek Zamanlı Duygu (Sentiment) Analizi', "CRM'e Otomatik Konuşma Özeti Çıkarma", 'Sesli Yapay Zeka Botları (Voicebot)', 'Hızlı Çözüm İçin Akıllı Bilgi Bankası']
+    },
+    backoffice: {
+      title: 'Backoffice & Veri Yönetimi',
+      desc: 'Operasyonel yüklerinizi azaltan, veri doğruluğunu ve dokümantasyonu sağlayan arka ofis desteği.',
+      points: ['CRM Veri Temizleme & Güncelleme', 'Evrak Kontrolü & Kimlik Doğrulama (KYC)', 'Fatura & İtiraz Ön İnceleme Süreçleri', 'Sipariş & Sözleşme Giriş Yönetimi']
+    },
+    quality: {
+      title: 'Kalite Güvencesi & Akademi',
+      desc: 'Kendi bünyemizdeki Calendra Eğitim Akademisi ile sürekli denetim, dinleme ve gelişim koçluğu.',
+      points: ['%100 Gizli Müşteri & Ses Denetimleri', 'Haftalık KPI & Performans Raporlaması', 'Fonetik & İkna Kabiliyeti Eğitimleri', 'SLA Garantili İlk Temasta Çözüm']
+    }
+  },
+  about: {
+    tag: 'HAKKIMIZDA',
+    title: 'Almanya ile Türkiye Arasındaki Güçlü Köprü',
+    storyTitle: 'Vizyonumuz ve Hikayemiz',
+    story1: "CALENDRA, üstün kaliteli Almanca müşteri hizmetlerinin erişilebilir ve sürdürülebilir olması gerektiği inancıyla kuruldu. Frankfurt am Main merkezli Alman yönetim standartlarımızı, Türkiye'deki yetenekli ve iki dilli uzman kadromuzla birleştirerek DACH bölgesindeki şirketlere benzersiz bir rekabet avantajı sunuyoruz.",
+    story2: 'En yeni bulut teknolojileri, kendi bünyemizdeki eğitim akademimiz ve Alman kültürünün inceliklerine olan derin hakimiyetimizle, markanızın en değerli sesi oluyoruz.',
+    valuesTitle: 'Temel Değerlerimiz',
+    v1: 'Hassasiyet & Güvenilirlik',
+    v1Desc: 'Zamanında teslimat, kusursuz raporlama ve SLA taahhütlerimize bağlılık vazgeçilmez ilkemizdir.',
+    v2: 'Empati & Dil Hakimiyeti',
+    v2Desc: 'Sadece Almanca konuşmuyor, müşterilerinizin beklentilerini ve Alman iş kültürünü çok iyi anlıyoruz.',
+    v3: 'Şeffaflık & Ortaklık',
+    v3Desc: 'Gerçek zamanlı gösterge panelleri ve düzenli iletişimle güvene dayalı uzun vadeli ortaklıklar kuruyoruz.',
+    academyTitle: 'Calendra Dil & Kalite Akademisi',
+    academyDesc: "Her temsilcimiz ilk çağrısını almadan önce 3 haftalık yoğun fonetik, CRM araçları, itiraz karşılama ve GDPR veri güvenliği eğitiminden geçer."
+  },
+  tech: {
+    tag: 'TEKNOLOJİ & GÜVENLİK',
+    title: 'Kurumsal Altyapı ve Avrupa Standartlarında Güvenlik',
+    subtitle: 'Yüksek kesintisizlik oranı, modern API entegrasyonları ve GDPR / ISO 27001 sertifikalı veri koruma altyapısı.',
+    telephonyTitle: 'Bulut Telefon & Yedeklilik',
+    telephonyDesc: 'Frankfurt ve Münih lokasyonlu yedekli veri merkezleri ile 20ms altı gecikme süreli kurumsal VoIP altyapısı.',
+    integrationsTitle: 'Kusursuz CRM & Yazılım Entegrasyonu',
+    integrationsDesc: "Kullandığınız tüm sistemlerle doğrudan entegre oluyoruz: Salesforce, Zendesk, HubSpot, Freshdesk, SAP, Jira, Aircall ve özel REST API'ler.",
+    aiTitle: 'Ses Analitiği & Yapay Zeka Koçluğu',
+    aiDesc: 'Konuşma sırasında müşterinin ses tonundan memnuniyet düzeyini ölçen ve temsilciye anında bilgi kartları sunan yapay zeka desteği.',
+    securityTitle: '%100 GDPR, KVKK & ISO 27001',
+    securityPoints: [
+      'Uçtan uca şifrelenmiş ses ve veri kanalları (TLS/SRTP)',
+      'Avrupa Birliği sınırları içinde güvenli veri barındırma',
+      'AB GDPR Madde 28 uyarınca Veri İşleme Sözleşmesi (DPA)',
+      'Rol tabanlı erişim kontrolü (RBAC) ve Temiz Masa Politikası'
+    ]
+  },
+  careers: {
+    tag: "CALENDRA'DA KARİYER",
+    title: 'Yıldız Ekibimizin Bir Parçası Olun',
+    subtitle: 'Akıcı Almanca konuşuyor ve yüksek gelir, esnek çalışma imkanları ve kariyer fırsatları mı arıyorsunuz? 1 dakikalık online testimizi çözün ve anında başvurun!',
+    benefitsTitle: 'Size Sunduğumuz Ayrıcalıklar:',
+    b1: 'EUR / TRY bazlı yüksek sabit maaş + sınırsız performans primleri',
+    b2: '%100 Home-Office veya İstanbul / İzmir modern ofislerimizde çalışma imkanı',
+    b3: 'Kapsamlı oryantasyon ve ücretli profesyonel eğitim dönemi',
+    b4: 'Özel Sağlık Sigortası & en son model profesyonel teknik ekipman',
+    b5: 'Alman yönetimi, yatay hiyerarşi ve huzurlu, dinamik çalışma ortamı',
+    jobsTitle: 'Açık Pozisyonlar',
+    job1Title: 'Almanca Müşteri Temsilcisi (Inbound) - C1/C2',
+    job1Type: 'Tam Zamanlı / Yarı Zamanlı | Home-Office veya Ofis',
+    job1Desc: "Almanya'nın önde gelen e-ticaret ve teknoloji markalarının müşterilerine telefon, e-posta ve chat üzerinden destek sağlanması.",
+    job2Title: 'Almanca B2B Satış & Randevu Temsilcisi (Outbound)',
+    job2Type: 'Tam Zamanlı | Yüksek Sabit Maaş + Dolgun Prim',
+    job2Desc: "Almanya, Avusturya ve İsviçre'deki kurumsal firmalara telefonla ulaşılarak nitelikli randevular oluşturulması.",
+    job3Title: 'Takım Lideri / Kalite Koçu (Team Leader)',
+    job3Type: 'Tam Zamanlı | Yönetici Pozisyonu',
+    job3Desc: '15-20 kişilik temsilci ekibinin yönetilmesi, çağrı dinlemeleri yapılması ve düzenli koçluk verilmesi.',
+    surveyBadge: 'İnteraktif Ön Eleme Testi',
+    surveyTitle: 'Uygunluk Testi & Hızlı Başvuru Asistanı',
+    surveySubtitle: 'Sadece 5 kısa soruyu yanıtlayarak hangi projemize ve gelir modeline en uygun olduğunuzu anında öğrenin!'
+  },
+  survey: {
+    stepOf: 'Adım',
+    of: '/',
+    q1: 'Almanca seviyenizi nasıl tanımlarsınız?',
+    q1_desc: 'Tüm projelerimiz Almanya, Avusturya ve İsviçre müşterilerine yöneliktir.',
+    q1_opt1: "Ana dilim / Almanya'da doğup büyüdüm (C2+)",
+    q1_opt2: 'Akıcı konuşma & yazma / Alman Dili mezunuyum (C1)',
+    q1_opt3: 'İyi derecede konuşabiliyorum, hafif aksanlı (B2)',
+    q1_opt4: 'Temel / Orta seviye (A1 - B1)',
+
+    q2: 'Daha önce Çağrı Merkezi veya Müşteri Hizmetleri deneyiminiz oldu mu?',
+    q2_desc: 'Sektör değiştirmek isteyen adaylara da kapımız açık, sizi eğitiyoruz!',
+    q2_opt1: 'Evet, 2 yıldan fazla deneyimim var (Inbound / Outbound)',
+    q2_opt2: 'Evet, 6 ay ile 2 yıl arası deneyimim var',
+    q2_opt3: 'Hayır, fakat satış / turizm / otelcilik deneyimim var',
+    q2_opt4: 'Hayır, çağrı merkezinde ilk defa çalışacağım ama çok istekliyim',
+
+    q3: 'Hangi çalışma alanı sizin için daha cazip?',
+    q3_desc: 'Size en uygun departmanı seçin:',
+    q3_opt1: 'Inbound Müşteri Hizmetleri & Teknik Destek (Satışsız)',
+    q3_opt2: 'Outbound B2B Satış & Randevu Alma (Yüksek Prim Odaklı)',
+    q3_opt3: 'Omnichannel: E-Posta & WhatsApp / Yazılı Canlı Destek',
+    q3_opt4: 'Takım Liderliği / Kalite Denetimi / Eğitmenlik',
+
+    q4: 'Hangi çalışma modelini tercih edersiniz?',
+    q4_desc: 'Eğitim sonrası sunduğumuz esnek modeller:',
+    q4_opt1: "%100 Home-Office (Türkiye'nin veya AB'nin her yerinden)",
+    q4_opt2: 'Modern Ofis Ortamı (İstanbul / İzmir)',
+    q4_opt3: 'Hibrit Model (Ofis + Home-Office karması)',
+    q4_opt4: 'Esnek Yarı Zamanlı / Öğrenciye Uygun Saatler',
+
+    q5: 'Evdeki teknik altyapı durumunuz nedir?',
+    q5_desc: 'Home-Office çalışmak için gereken koşullar:',
+    q5_opt1: 'Hızlı internet (>50 Mbps), sessiz oda ve kendi bilgisayarım hazır',
+    q5_opt2: 'Hızlı internetim var, şirket bilgisayarı ve kulaklık talep ediyorum',
+    q5_opt3: 'Doğrudan şirket ofisinden çalışmayı tercih ediyorum',
+    q5_opt4: 'Şartları henüz kontrol etmem gerekiyor',
+
+    btnNext: 'Sonraki Soru',
+    btnPrev: 'Geri',
+    btnFinish: 'Sonucu Gör & Başvur',
+
+    scoreExcellent: 'Mükemmel Eşleşme! (Uyum: %98)',
+    scoreGood: 'Çok İyi Eşleşme! (Uyum: %85)',
+    scoreModerate: 'Giriş Seviyesi Programımız İçin Uygun! (Uyum: %72)',
+    resultDesc: 'Verdiğiniz yanıtlara göre aktif projelerimiz için son derece uygunsunuz. 24 saat içinde online mülakata davet edilmek için aşağıdaki formu doldurmanız yeterli!'
+  },
+  jobForm: {
+    title: 'CALENDRA İş Başvuru Formu',
+    subtitle: 'Sadece 60 saniye sürer. Uzun ön yazılara gerek yok!',
+    fullName: 'Adınız ve Soyadınız *',
+    fullNamePlaceholder: 'Örn: Deniz Yılmaz / Caner Kaya',
+    email: 'E-Posta Adresiniz *',
+    emailPlaceholder: 'ornek@email.com',
+    phone: 'Telefon Numarası / WhatsApp *',
+    phonePlaceholder: '+90 5XX XXX XX XX veya +49 17X XXXXXXX',
+    city: 'Yaşadığınız Şehir *',
+    cityPlaceholder: 'Örn: İstanbul, İzmir, Antalya, Ankara, Bursa...',
+    cvText: 'Kısa Özgeçmiş / Geçmiş Deneyimler (veya özet metin girin)',
+    cvPlaceholder: 'Kısaca maddeler halinde: Eğitim, Almanca seviyesi, önceki çağrı merkezi tecrübeleri...',
+    voiceNoteLabel: 'İsteğe Bağlı: Kısa Almanca Ses Kaydı Yükleyin / Kendinizi Tanıtın',
+    voiceNoteDesc: 'Ses kaydı eklemek mülakata hemen çağrılma şansınızı %300 artırır!',
+    gdprAgree: 'Kişisel verilerimin KVKK ve GDPR kapsamında işlenmesini onaylıyorum.',
+    submitBtn: 'Başvuruyu Hemen Gönder',
+    submitting: 'Gönderiliyor...',
+    successTitle: 'Başvurunuz Başarıyla Alındı!',
+    successDesc: 'CALENDRA ailesine gösterdiğiniz ilgi için teşekkür ederiz. İnsan Kaynakları ekibimiz başvurunuzu inceleyecek ve en geç 24 saat içinde WhatsApp veya E-Posta ile sizinle iletişime geçecektir.',
+    refNumber: 'Başvuru Takip Numaranız:'
+  },
+  contact: {
+    tag: 'İLETİŞİM & DANIŞMANLIK',
+    title: 'Müşteri İletişiminizi Bir Üst Seviyeye Taşıyalım',
+    subtitle: 'İster kurumsal çağrı merkezi teklifi almak isteyin, ister iş ortaklığı veya genel sorularınız olsun; yönetim ekibimiz size yardımcı olmaktan memnuniyet duyar.',
+    formTitle: 'Proje & Teklif Talep Formu',
+    company: 'Şirket / Kurum Adı *',
+    companyPlaceholder: 'Örn: ABC GmbH / Teknoloji A.Ş.',
+    name: 'Yetkili Adı Soyadı *',
+    namePlaceholder: 'Ahmet Yılmaz',
+    email: 'Kurumsal E-Posta *',
+    emailPlaceholder: 'a.yilmaz@sirket.com',
+    phone: 'Telefon Numarası',
+    phonePlaceholder: '+49 69 1234567 veya +90 212 XXX XX XX',
+    serviceInterest: 'İlgilendiğiniz Hizmet *',
+    serviceOpts: {
+      select: 'Lütfen seçiniz...',
+      inbound: 'Inbound Müşteri Hizmetleri (7/24 / 1. Seviye Destek)',
+      outbound: 'Outbound & B2B Satış ve Randevu Alma',
+      omnichannel: 'Çok Kanallı Destek (WhatsApp, Canlı Sohbet, E-Posta)',
+      ai: 'Yapay Zeka & Voicebot Çözümleri',
+      custom: 'Büyük Ölçekli Özel Proje (>10 Temsilci)'
+    },
+    message: 'Mesajınız / Proje İhtiyaçlarınız',
+    messagePlaceholder: 'Aylık beklenen çağrı hacmi, temsilci sayısı veya hedef başlangıç tarihi gibi detayları belirtebilirsiniz...',
+    submit: 'Teklif Talebini Gönder',
+    success: 'Teşekkürler! Talebiniz başarıyla alındı. Müşteri Temsilcimiz en geç 2 saat içinde sizinle iletişime geçecektir.',
+    hqGermany: 'Almanya Genel Merkez (Satış & Strateji)',
+    hqAddressDE: 'Mainzer Landstraße 180, 60327 Frankfurt am Main',
+    hubTurkey: 'Türkiye Operasyon Merkezi (Nearshore Hub)',
+    hubAddressTR: 'Maslak Mah. Büyükdere Cad. No: 255, 34398 Sarıyer / İstanbul',
+    hubAddressIzmir: 'Folkart Towers A Kule, Bayraklı / İzmir',
+    directContact: 'Doğrudan İletişim',
+    emailLabel: 'E-Posta:',
+    phoneLabel: 'Telefon:'
+  },
+  faq: {
+    tag: 'SIKÇA SORULAN SORULAR',
+    title: 'CALENDRA Hakkında Merak Edilenler',
+    q1: 'Temsilcilerinizin kusursuz Almanca konuştuğunu nasıl garanti ediyorsunuz?',
+    a1: "Temsilcilerimizi titizlikle Almanya'da doğup büyümüş ya da Alman Dili ve Edebiyatı mezunu adaylar arasından seçiyoruz. İşe alım sonrası her temsilci Calendra Akademisi'nde fonetik ve sektörel dil eğitiminden geçer.",
+    q2: 'Mevcut CRM ve çağrı yazılımlarımızla entegre olabilir misiniz?',
+    a2: 'Evet. Salesforce, Zendesk, HubSpot, Freshdesk, SAP gibi tüm popüler sistemlere API ve WebRTC ile doğrudan bağlanıyoruz. Dilerseniz temsilcilerimiz doğrudan sizin güvenli sistemleriniz üzerinden çalışır.',
+    q3: 'CALENDRA KVKK ve GDPR uyumlu mu?',
+    a3: 'Kesinlikle. AB GDPR Madde 28 Veri İşleme Sözleşmeleri, ISO 27001 sertifikalı Almanya sunucuları ve uçtan uca şifreli ses hatları ile maksimum veri güvenliği sağlıyoruz.',
+    q4: 'Yeni bir projeyi ne kadar sürede başlatabilirsiniz?',
+    a4: '2-5 kişilik butik ekipleri özel eğitim sonrası 7-14 iş günü içinde yayına alabiliyoruz. 20+ kişilik büyük projeleri ise aşamalı geçiş planıyla organize ediyoruz.',
+    q5: 'Minimum sözleşme süresi veya çağrı kotası var mı?',
+    a5: 'Hizmet kalitemizi test edebilmeniz için 1 aylık deneme (pilot) projelerinden, SLA garantili uzun vadeli kurumsal anlaşmalara kadar esnek modeller sunuyoruz.'
+  },
+  footer: {
+    tagline: 'CONNECTING. AUTOMATING. DELIVERING.',
+    desc: 'Yapay zeka teknolojisi, ana dili seviyesinde Almanca kalitesi ve %100 GDPR güvencesiyle işletmenizin birinci sınıf çağrı merkezi ortağı.',
+    quickLinks: 'Hızlı Erişim',
+    servicesTitle: 'Hizmetlerimiz',
+    legalTitle: 'Yasal',
+    imprint: 'Şirket Bilgileri (Impressum)',
+    privacy: 'Gizlilik & KVKK / GDPR',
+    terms: 'Kullanım Koşulları',
+    cookieSettings: 'Çerez Ayarları',
+    rights: 'Tüm hakları saklıdır.',
+    securityBadge: 'ISO 27001 & GDPR Onaylı Altyapı'
+  }
+};
+
