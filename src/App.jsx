@@ -9,6 +9,7 @@ import AboutPage from './pages/AboutPage.jsx';
 import TechnologyPage from './pages/TechnologyPage.jsx';
 import CareersPage from './pages/CareersPage.jsx';
 import ContactPage from './pages/ContactPage.jsx';
+import AnimatedBackground from './components/AnimatedBackground.jsx';
 import { translations } from './translations/translations.js';
 
 
@@ -98,7 +99,10 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#08080C] text-slate-100 flex flex-col justify-between selection:bg-amber-500/30 selection:text-amber-200">
+    <div className="relative min-h-screen bg-[#08080C] text-slate-100 flex flex-col justify-between selection:bg-amber-500/30 selection:text-amber-200">
+      {/* Dynamic Luxury Ambient Animated Background */}
+      <AnimatedBackground />
+
       {/* Navbar */}
       <Navbar
         currentRoute={currentRoute}
